@@ -21,6 +21,7 @@
   --bs-green: #198754;
   --bs-teal: #20c997;
   --bs-cyan: #0dcaf0;
+  --bs-beige: #efe3af;
   --bs-black: #000;
   --bs-white: #fff;
   --bs-gray: #6c757d;
@@ -8323,6 +8324,11 @@ textarea.form-control-lg {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
 }
+
+.bg-beige {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-beige-rgb), var(--bs-bg-opacity)) !important;
+  }
 
 .bg-body {
   --bs-bg-opacity: 1;
