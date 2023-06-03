@@ -10,6 +10,24 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+/*! research page
+ */
+
+.half-container {
+  display: flex;
+}
+
+.image {
+  flex-basis: 50%;
+}
+
+.text {
+  flex-basis: 50%;
+  padding: 20px;
+}
+
+
 :root {
   --bs-blue: #1e30f3;
   --bs-indigo: #6610f2;
@@ -225,6 +243,10 @@ strong {
   font-weight: bolder;
 }
 
+extrasmall, .extrasmall {
+  font-size: 0.7em;
+}
+
 small, .small {
   font-size: 0.875em;
 }
@@ -234,7 +256,7 @@ medium, .medium {
 }
 
 large, .large {
-  font-size: 2em;
+  font-size: 10em;
 }
 
 mark, .mark {
@@ -8149,6 +8171,10 @@ textarea.form-control-lg {
 
 .text-center {
   text-align: center !important;
+}
+
+.text-justify {
+  text-align: justify !important;
 }
 
 .text-decoration-none {
