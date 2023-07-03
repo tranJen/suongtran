@@ -11657,16 +11657,16 @@ html {
 .profile {
   position: relative;
   height: 22vw;
-  width: 25vw;
-  max-height: 22rem;
-  max-width: 25rem;
+  width: 20vw;
+  max-height: 17rem;
+  max-width: 20rem;
   border-width: 10px;
   border-style: solid;
   border-image: linear-gradient(to bottom right, #FFCBBD, #01595F) 1;
 }
 .profile .profile-img {
-  height: 25vw;
-  max-height: 25rem;
+  height: 19vw;
+  max-height: 19rem;
   position: absolute;
   bottom: 0;
   left: 50%;
